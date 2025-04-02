@@ -94,33 +94,9 @@ image-text-search/
 └── requirements.txt  # Python dependencies
 ```
 
-## Creating requirements.txt
-
-To create the necessary requirements file, run:
-
-```
-pip install pipreqs
-pipreqs .
-```
-
-Or manually create a requirements.txt file with:
-
-```
-streamlit==1.24.0
-Pillow==9.5.0
-transformers==4.30.2
-nltk==3.8.1
-textblob==0.17.1
-torch==2.0.1
-```
-
 ## Note
 
 This application requires downloading large AI model files on first run, which may take some time depending on your internet connection.
-
-## License
-
-[MIT License](LICENSE)
 
 ## Contributing
 
