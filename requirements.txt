@@ -1,0 +1,6 @@
+streamlit
+Pillow
+transformers
+nltk
+textblob
+torch
